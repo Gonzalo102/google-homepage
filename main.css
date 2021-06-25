@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+  }
+  
+  .super-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .container {
+    display: flex;
+    background-color: white;
+    height: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+  .search-wrapper {
+      display: flex;
+      background-color: white;
+      width: 45%;
+      border-radius: 30px;
+      padding: 10px;
+      border: 0.1px solid grey;
+      margin: 0 0 10px;
+  }
+  
+  .Searchbar {
+    width: 90%;
+    border: none;
+  }
+  
+  .Searchbar:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .search-wrapper:hover, .search-wrapper:focus-within{
+    border-color: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  }
+  
+  .lupaimage {
+      width: 20px;
+      height: 20px;
+  }
+  
+  .mic-icon{
+      width: 15px;
+      height: 15px;
+    
+  }
+  .GoogleApps {
+      cursor: pointer;
+      border: none;
+      width: 15px;
+      height: 15px;
+  }
+  
+  .UserIcon {
+      cursor: pointer;
+      border: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50px;
+  }
+  
+  .image {
+      width: 300px;
+      height: 150px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+  .header {
+      display: flex;
+      background-color: white;
+      align-self: flex-end;
+      align-items: center;
+      width: 20%;
+      
+  }
+  
+  .topnavbar {
+      display: flex;
+      background-color: white;
+      flex-direction: row;
+      align-self: flex-end;
+      justify-content: space-around;
+      width: 100%;
+      font-size: 15px;
+  }
+  
+  .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      background-color: white;
+      border-top: 1px solid grey;
+      padding: 2px;
+      width: 100%;
+      margin: 0 auto;
+     
+  }
+  .footerRight {
+      display: flex;
+      background-color: purple;
+      width: 30%;
+      justify-content: space-around;
+  }
+
+  .footerLeft {
+    display: flex;
+    background-color: lightblue;
+    width: 50%;
+    justify-content: space-around;
+}
+  
+  h6{
+      color: grey;
+      margin: 100px 0 10px;
+  }
+  
+  .navbarright {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      width: 100%;
+      justify-content: space-around;
+      font-size: 15px;
+  }
+  
+  .navbarleft {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      width: 100%;
+      justify-content: space-around;
+      font-size: 15px;
+  }
+  
+  a:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  #EnglishLink:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #EnglishLink:hover {
+    text-decoration: underline;
+  }
+  
+  .button {
+      background: none;
+      color: inherit;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      outline: inherit;
+  }
+  button:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
